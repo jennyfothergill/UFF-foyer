@@ -1,34 +1,34 @@
 <ForceField>
  <AtomTypes>
-  <Type name="H_" class="H_" element="H" mass="1.007" def="" desc=""/>
-  <Type name="H_b" class="H_b" element="H" mass="1.007" def="" desc=""/>
-  <Type name="He4+4" class="He4+4" element="He" mass="4.002602" def="" desc=""/>
-  <Type name="Li" class="Li" element="Li" mass="6.941" def="" desc=""/>
-  <Type name="Be3+2" class="Be3+2" element="Be" mass="9.012182" def="" desc=""/>
-  <Type name="B_3" class="B_3" element="B" mass="10.811" def="" desc=""/>
-  <Type name="B_2" class="B_2" element="B" mass="10.811" def="" desc=""/>
-  <Type name="C_3" class="C_3" element="C" mass="12.0107" def="" desc=""/>
-  <Type name="C_R" class="C_R" element="C" mass="12.0107" def="" desc=""/>
-  <Type name="C_2" class="C_2" element="C" mass="12.0107" def="" desc=""/>
-  <Type name="C_1" class="C_1" element="C" mass="12.0107" def="" desc=""/>
-  <Type name="N_3" class="N_3" element="N" mass="14.0067" def="" desc=""/>
-  <Type name="N_R" class="N_R" element="N" mass="14.0067" def="" desc=""/>
-  <Type name="N_2" class="N_2" element="N" mass="14.0067" def="" desc=""/>
-  <Type name="N_1" class="N_1" element="N" mass="14.0067" def="" desc=""/>
-  <Type name="O_3" class="O_3" element="O" mass="15.9994" def="" desc=""/>
-  <Type name="O_3_z" class="O_3_z" element="O" mass="15.9994" def="" desc=""/>
-  <Type name="O_R" class="O_R" element="O" mass="15.9994" def="" desc=""/>
-  <Type name="O_2" class="O_2" element="O" mass="15.9994" def="" desc=""/>
-  <Type name="O_1" class="O_1" element="O" mass="15.9994" def="" desc=""/>
-  <Type name="F_" class="F_" element="F" mass="18.9984032" def="" desc=""/>
-  <Type name="Ne4+4" class="Ne4+4" element="Ne" mass="20.1797" def="" desc=""/>
-  <Type name="Na" class="Na" element="Na" mass="22.98976928" def="" desc=""/>
-  <Type name="Mg3+2" class="Mg3+2" element="Mg" mass="24.3050" def="" desc=""/>
-  <Type name="Al3" class="Al3" element="Al" mass="26.9815386" def="" desc=""/>
-  <Type name="Si3" class="Si3" element="Si" mass="28.0855" def="" desc=""/>
-  <Type name="P_3+3" class="P_3+3" element="P" mass="30.973762" def="" desc=""/>
-  <Type name="P_3+5" class="P_3+5" element="P" mass="30.973762" def="" desc=""/>
-  <Type name="P_3+q" class="P_3+q" element="P" mass="30.973762" def="" desc=""/>
+  <Type name="H_" class="H_" element="H" mass="1.007" def="[H]" desc="hydrogen"/>
+  <Type name="H_b" class="H_b" element="H" mass="1.007" def="[H][D2]" desc="bridging hydrogen"/>
+  <Type name="He4+4" class="He4+4" element="He" mass="4.002602" def="[He]" desc="helium"/>
+  <Type name="Li" class="Li" element="Li" mass="6.941" def="[Li]" desc="lithium"/>
+  <Type name="Be3+2" class="Be3+2" element="Be" mass="9.012182" def="[Be]" desc="beryllium"/>
+  <Type name="B_3" class="B_3" element="B" mass="10.811" def="B[X4]" desc="tetrahedral boron "/>
+  <Type name="B_2" class="B_2" element="B" mass="10.811" def="B[X3]" desc="trigonal boron"/>
+  <Type name="C_3" class="C_3" element="C" mass="12.0107" def="C[X4]" desc="tetrahedral carbon"/>
+  <Type name="C_R" class="C_R" element="C" mass="12.0107" def="c" desc="resonant carbon"/>
+  <Type name="C_2" class="C_2" element="C" mass="12.0107" def="C[X3]" desc="trigonal carbon"/>
+  <Type name="C_1" class="C_1" element="C" mass="12.0107" def="C[X2]" desc="linear carbon"/>
+  <Type name="N_3" class="N_3" element="N" mass="14.0067" def="N[X3]" desc="tetrahedral nitrogen"/>
+  <Type name="N_R" class="N_R" element="N" mass="14.0067" def="n" desc="resonant nitrogen"/>
+  <Type name="N_2" class="N_2" element="N" mass="14.0067" def="N[X2]" desc="trigonal nitrogen"/>
+  <Type name="N_1" class="N_1" element="N" mass="14.0067" def="N[X1]" desc="linear nitrogen"/>
+  <Type name="O_3" class="O_3" element="O" mass="15.9994" def="O[X2]" desc="tetrahedral oxygen"/>
+  <Type name="O_3_z" class="O_3_z" element="O" mass="15.9994" def="O[Al,Si,Ti,Sn,Zn]" desc="zeolite oxygen"/>
+  <Type name="O_R" class="O_R" element="O" mass="15.9994" def="o" desc="resonant oxygen"/>
+  <Type name="O_2" class="O_2" element="O" mass="15.9994" def="O[X1]" desc="trigonal oxygen"/>
+  <Type name="O_1" class="O_1" element="O" mass="15.9994" def="O#" desc="linear oxygen"/>
+  <Type name="F_" class="F_" element="F" mass="18.9984032" def="F" desc="fluorine"/>
+  <Type name="Ne4+4" class="Ne4+4" element="Ne" mass="20.1797" def="Ne" desc="Neon"/>
+  <Type name="Na" class="Na" element="Na" mass="22.98976928" def="Na" desc="sodium"/>
+  <Type name="Mg3+2" class="Mg3+2" element="Mg" mass="24.3050" def="Mg" desc="magnesium"/>
+  <Type name="Al3" class="Al3" element="Al" mass="26.9815386" def="Al" desc="aluminum"/>
+  <Type name="Si3" class="Si3" element="Si" mass="28.0855" def="Si" desc="silicon"/>
+  <Type name="P_3+3" class="P_3+3" element="P" mass="30.973762" def="P[X3]" desc="tetrahedral phosphorous +3"/>
+  <Type name="P_3+5" class="P_3+5" element="P" mass="30.973762" def="P[X4]" desc="tetrahedral phosphorous +5"/>
+  <Type name="P_3+q" class="P_3+q" element="P" mass="30.973762" def="P[C3]" desc="tetrahedral phosphorous in organometallics"/>
   <Type name="S_3+2" class="S_3+2" element="S" mass="32.065" def="" desc=""/>
   <Type name="S_3+4" class="S_3+4" element="S" mass="32.065" def="" desc=""/>
   <Type name="S_3+6" class="S_3+6" element="S" mass="32.065" def="" desc=""/>
