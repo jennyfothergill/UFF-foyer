@@ -96,9 +96,9 @@
   <Type name="Lu6+3" class="Lu6+3" element="Lu" mass="174.9668"/>
   <Type name="Hf3+4" class="Hf3+4" element="Hf" mass="178.49"/>
   <Type name="Ta3+5" class="Ta3+5" element="Ta" mass="180.94788"/>
-  <Type name="W_6+6" class="W_6+6" element="W"  mass="183.84" def="" desc=""/>
-  <Type name="W_3+4" class="W_3+4" element="W"  mass="183.84" def="" desc=""/>
-  <Type name="W_3+6" class="W_3+6" element="W"  mass="183.84" def="" desc=""/>
+  <Type name="W_6+6" class="W_6+6" element="W"  mass="183.84"  def="" desc=""/>
+  <Type name="W_3+4" class="W_3+4" element="W"  mass="183.84"  def="" desc=""/>
+  <Type name="W_3+6" class="W_3+6" element="W"  mass="183.84"  def="" desc=""/>
   <Type name="Re6+5" class="Re6+5" element="Re" mass="186.207" def="" desc=""/>
   <Type name="Re3+7" class="Re3+7" element="Re" mass="186.207" def="" desc=""/>
   <Type name="Os6+6" class="Os6+6" element="Os" mass="190.23"/>
@@ -117,11 +117,11 @@
   <Type name="Ac6+3" class="Ac6+3" element="Ac" mass="227"/>
   <Type name="Th6+4" class="Th6+4" element="Th" mass="232.03806"/>
   <Type name="Pa6+4" class="Pa6+4" element="Pa" mass="231.03588"/>
-  <Type name="U_6+4" class="U_6+4" element="U" mass="238.02891"/>
+  <Type name="U_6+4" class="U_6+4" element="U"  mass="238.02891"/>
  </AtomTypes>
  <NonbondedForce coulomb14scale="0.833333" lj14scale="0.5">
-  <Atom type="P_"    charge="0" sigma="0" epsilon="0"/>
-  <Atom type="O_"    charge="0" sigma="0" epsilon="0"/>
+  <Atom type="P_"    charge="0"     sigma="0"     epsilon="0"/>
+  <Atom type="O_"    charge="0"     sigma="0"     epsilon="0"/>
   <Atom type="H_"    charge="0.712" sigma="2.886" epsilon="0.044"/>
   <Atom type="H_b"   charge="0.712" sigma="2.886" epsilon="0.044"/>
   <Atom type="He4+4" charge="0.098" sigma="2.362" epsilon="0.056"/>
