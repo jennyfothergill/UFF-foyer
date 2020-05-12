@@ -7,698 +7,698 @@
 		<ParametersUnitDef parameter="epsilon" unit="kcal/mol"/>
 		<AtomType name="H_" element="H" mass="1.007" def = "[H]"/>
 			<Parameters>
-				<Parameter name="sigma" value="2.886">
-				<Parameter name="epsilon" value="0.044">
+				<Parameter name="sigma" value="2.886"/>
+				<Parameter name="epsilon" value="0.044"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="H_b" element="H" mass="1.007" def = "[H;X2]" overrides = "H_" desc = "bridging hydrogen"/>
 			<Parameters>
-				<Parameter name="sigma" value="2.886">
-				<Parameter name="epsilon" value="0.044">
+				<Parameter name="sigma" value="2.886"/>
+				<Parameter name="epsilon" value="0.044"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="He4+4" element="He" mass="4.002602"/>
 			<Parameters>
-				<Parameter name="sigma" value="2.362">
-				<Parameter name="epsilon" value="0.056">
+				<Parameter name="sigma" value="2.362"/>
+				<Parameter name="epsilon" value="0.056"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Li" element="Li" mass="6.941"/>
 			<Parameters>
-				<Parameter name="sigma" value="2.451">
-				<Parameter name="epsilon" value="0.025">
+				<Parameter name="sigma" value="2.451"/>
+				<Parameter name="epsilon" value="0.025"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Be3+2" element="Be" mass="9.012182"/>
 			<Parameters>
-				<Parameter name="sigma" value="2.745">
-				<Parameter name="epsilon" value="0.085">
+				<Parameter name="sigma" value="2.745"/>
+				<Parameter name="epsilon" value="0.085"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="B_3" element="B" mass="10.811" def = "[B;X4]" desc = "tetrahedral boron "/>
 			<Parameters>
-				<Parameter name="sigma" value="4.083">
-				<Parameter name="epsilon" value="0.18">
+				<Parameter name="sigma" value="4.083"/>
+				<Parameter name="epsilon" value="0.18"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="B_2" element="B" mass="10.811" def = "[B;X3]" desc = "trigonal boron"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.083">
-				<Parameter name="epsilon" value="0.18">
+				<Parameter name="sigma" value="4.083"/>
+				<Parameter name="epsilon" value="0.18"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="C_3" element="C" mass="12.0107" def = "[C;X4]" desc = "tetrahedral carbon"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.851">
-				<Parameter name="epsilon" value="0.105">
+				<Parameter name="sigma" value="3.851"/>
+				<Parameter name="epsilon" value="0.105"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="C_R" element="C" mass="12.0107"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.851">
-				<Parameter name="epsilon" value="0.105">
+				<Parameter name="sigma" value="3.851"/>
+				<Parameter name="epsilon" value="0.105"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="C_2" element="C" mass="12.0107" def = "[C;X3]" desc = "trigonal carbon"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.851">
-				<Parameter name="epsilon" value="0.105">
+				<Parameter name="sigma" value="3.851"/>
+				<Parameter name="epsilon" value="0.105"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="C_1" element="C" mass="12.0107" def = "[C;X2]" desc = "linear carbon"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.851">
-				<Parameter name="epsilon" value="0.105">
+				<Parameter name="sigma" value="3.851"/>
+				<Parameter name="epsilon" value="0.105"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="N_3" element="N" mass="14.0067" def = "[N;X3]" desc = "tetrahedral nitrogen"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.66">
-				<Parameter name="epsilon" value="0.069">
+				<Parameter name="sigma" value="3.66"/>
+				<Parameter name="epsilon" value="0.069"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="N_R" element="N" mass="14.0067"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.66">
-				<Parameter name="epsilon" value="0.069">
+				<Parameter name="sigma" value="3.66"/>
+				<Parameter name="epsilon" value="0.069"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="N_2" element="N" mass="14.0067" def = "[N;X2]" desc = "trigonal nitrogen"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.66">
-				<Parameter name="epsilon" value="0.069">
+				<Parameter name="sigma" value="3.66"/>
+				<Parameter name="epsilon" value="0.069"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="N_1" element="N" mass="14.0067" def = "[N;X1]" desc = "linear nitrogen"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.66">
-				<Parameter name="epsilon" value="0.069">
+				<Parameter name="sigma" value="3.66"/>
+				<Parameter name="epsilon" value="0.069"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="O_3" element="O" mass="15.9994" def = "[O;X2]" overrides = "O_" desc = "tetrahedral oxygen"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.5">
-				<Parameter name="epsilon" value="0.06">
+				<Parameter name="sigma" value="3.5"/>
+				<Parameter name="epsilon" value="0.06"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="O_3_z" element="O" mass="15.9994" def = "[O]([Al,Si,Ti,Sn,Zn])" overrides = "O_, O_2, O_3" desc = "zeolite oxygen"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.5">
-				<Parameter name="epsilon" value="0.06">
+				<Parameter name="sigma" value="3.5"/>
+				<Parameter name="epsilon" value="0.06"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="O_R" element="O" mass="15.9994"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.5">
-				<Parameter name="epsilon" value="0.06">
+				<Parameter name="sigma" value="3.5"/>
+				<Parameter name="epsilon" value="0.06"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="O_2" element="O" mass="15.9994" def = "[O;X1]" overrides = "O_" desc = "trigonal oxygen"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.5">
-				<Parameter name="epsilon" value="0.06">
+				<Parameter name="sigma" value="3.5"/>
+				<Parameter name="epsilon" value="0.06"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="O_1" element="O" mass="15.9994"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.5">
-				<Parameter name="epsilon" value="0.06">
+				<Parameter name="sigma" value="3.5"/>
+				<Parameter name="epsilon" value="0.06"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="F_" element="F" mass="18.9984032"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.364">
-				<Parameter name="epsilon" value="0.05">
+				<Parameter name="sigma" value="3.364"/>
+				<Parameter name="epsilon" value="0.05"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Ne4+4" element="Ne" mass="20.1797"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.243">
-				<Parameter name="epsilon" value="0.042">
+				<Parameter name="sigma" value="3.243"/>
+				<Parameter name="epsilon" value="0.042"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Na" element="Na" mass="22.98976928"/>
 			<Parameters>
-				<Parameter name="sigma" value="2.983">
-				<Parameter name="epsilon" value="0.03">
+				<Parameter name="sigma" value="2.983"/>
+				<Parameter name="epsilon" value="0.03"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Mg3+2" element="Mg" mass="24.3050"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.021">
-				<Parameter name="epsilon" value="0.111">
+				<Parameter name="sigma" value="3.021"/>
+				<Parameter name="epsilon" value="0.111"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Al3" element="Al" mass="26.9815386" def = "[Al]"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.499">
-				<Parameter name="epsilon" value="0.505">
+				<Parameter name="sigma" value="4.499"/>
+				<Parameter name="epsilon" value="0.505"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Si3" element="Si" mass="28.0855"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.295">
-				<Parameter name="epsilon" value="0.402">
+				<Parameter name="sigma" value="4.295"/>
+				<Parameter name="epsilon" value="0.402"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="P_3+3" element="P" mass="30.973762" def = "[P;X3]" overrides = "P_" desc = "tetrahedral phosphorous +3"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.147">
-				<Parameter name="epsilon" value="0.305">
+				<Parameter name="sigma" value="4.147"/>
+				<Parameter name="epsilon" value="0.305"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="P_3+5" element="P" mass="30.973762" def = "[P;X4]" overrides = "P_" desc = "tetrahedral phosphorous +5"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.147">
-				<Parameter name="epsilon" value="0.305">
+				<Parameter name="sigma" value="4.147"/>
+				<Parameter name="epsilon" value="0.305"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="P_3+q" element="P" mass="30.973762" def = "[P;X3](C)" overrides = "P_" desc = "tetrahedral phosphorous in organometallics"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.147">
-				<Parameter name="epsilon" value="0.305">
+				<Parameter name="sigma" value="4.147"/>
+				<Parameter name="epsilon" value="0.305"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="S_3+2" element="S" mass="32.065" def = "" desc = ""/>
 			<Parameters>
-				<Parameter name="sigma" value="4.035">
-				<Parameter name="epsilon" value="0.274">
+				<Parameter name="sigma" value="4.035"/>
+				<Parameter name="epsilon" value="0.274"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="S_3+4" element="S" mass="32.065" def = "" desc = ""/>
 			<Parameters>
-				<Parameter name="sigma" value="4.035">
-				<Parameter name="epsilon" value="0.274">
+				<Parameter name="sigma" value="4.035"/>
+				<Parameter name="epsilon" value="0.274"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="S_3+6" element="S" mass="32.065" def = "" desc = ""/>
 			<Parameters>
-				<Parameter name="sigma" value="4.035">
-				<Parameter name="epsilon" value="0.274">
+				<Parameter name="sigma" value="4.035"/>
+				<Parameter name="epsilon" value="0.274"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="S_R" element="S" mass="32.065"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.035">
-				<Parameter name="epsilon" value="0.274">
+				<Parameter name="sigma" value="4.035"/>
+				<Parameter name="epsilon" value="0.274"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="S_2" element="S" mass="32.065" def = "" desc = ""/>
 			<Parameters>
-				<Parameter name="sigma" value="4.035">
-				<Parameter name="epsilon" value="0.274">
+				<Parameter name="sigma" value="4.035"/>
+				<Parameter name="epsilon" value="0.274"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Cl" element="Cl" mass="35.453"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.947">
-				<Parameter name="epsilon" value="0.227">
+				<Parameter name="sigma" value="3.947"/>
+				<Parameter name="epsilon" value="0.227"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Ar4+4" element="Ar" mass="39.948"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.868">
-				<Parameter name="epsilon" value="0.185">
+				<Parameter name="sigma" value="3.868"/>
+				<Parameter name="epsilon" value="0.185"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="K" element="K" mass="39.0983"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.812">
-				<Parameter name="epsilon" value="0.035">
+				<Parameter name="sigma" value="3.812"/>
+				<Parameter name="epsilon" value="0.035"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Ca6+2" element="Ca" mass="40.078"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.399">
-				<Parameter name="epsilon" value="0.238">
+				<Parameter name="sigma" value="3.399"/>
+				<Parameter name="epsilon" value="0.238"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Sc3+3" element="Sc" mass="44.955912"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.295">
-				<Parameter name="epsilon" value="0.019">
+				<Parameter name="sigma" value="3.295"/>
+				<Parameter name="epsilon" value="0.019"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Ti3+4" element="Ti" mass="47.867" def = "" desc = ""/>
 			<Parameters>
-				<Parameter name="sigma" value="3.175">
-				<Parameter name="epsilon" value="0.017">
+				<Parameter name="sigma" value="3.175"/>
+				<Parameter name="epsilon" value="0.017"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Ti6+4" element="Ti" mass="47.867" def = "" desc = ""/>
 			<Parameters>
-				<Parameter name="sigma" value="3.175">
-				<Parameter name="epsilon" value="0.017">
+				<Parameter name="sigma" value="3.175"/>
+				<Parameter name="epsilon" value="0.017"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="V_3+5" element="V" mass="50.9415"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.144">
-				<Parameter name="epsilon" value="0.016">
+				<Parameter name="sigma" value="3.144"/>
+				<Parameter name="epsilon" value="0.016"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Cr6+3" element="Cr" mass="51.9961"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.023">
-				<Parameter name="epsilon" value="0.015">
+				<Parameter name="sigma" value="3.023"/>
+				<Parameter name="epsilon" value="0.015"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Mn6+2" element="Mn" mass="54.938045"/>
 			<Parameters>
-				<Parameter name="sigma" value="2.961">
-				<Parameter name="epsilon" value="0.013">
+				<Parameter name="sigma" value="2.961"/>
+				<Parameter name="epsilon" value="0.013"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Fe3+2" element="Fe" mass="55.845" def = "" desc = ""/>
 			<Parameters>
-				<Parameter name="sigma" value="2.912">
-				<Parameter name="epsilon" value="0.013">
+				<Parameter name="sigma" value="2.912"/>
+				<Parameter name="epsilon" value="0.013"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Fe6+2" element="Fe" mass="55.845" def = "" desc = ""/>
 			<Parameters>
-				<Parameter name="sigma" value="2.912">
-				<Parameter name="epsilon" value="0.013">
+				<Parameter name="sigma" value="2.912"/>
+				<Parameter name="epsilon" value="0.013"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Co6+3" element="Co" mass="58.933195"/>
 			<Parameters>
-				<Parameter name="sigma" value="2.872">
-				<Parameter name="epsilon" value="0.014">
+				<Parameter name="sigma" value="2.872"/>
+				<Parameter name="epsilon" value="0.014"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Ni4+2" element="Ni" mass="58.6934"/>
 			<Parameters>
-				<Parameter name="sigma" value="2.834">
-				<Parameter name="epsilon" value="0.015">
+				<Parameter name="sigma" value="2.834"/>
+				<Parameter name="epsilon" value="0.015"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Cu3+1" element="Cu" mass="63.546"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.495">
-				<Parameter name="epsilon" value="0.005">
+				<Parameter name="sigma" value="3.495"/>
+				<Parameter name="epsilon" value="0.005"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Zn3+2" element="Zn" mass="65.38"/>
 			<Parameters>
-				<Parameter name="sigma" value="2.763">
-				<Parameter name="epsilon" value="0.124">
+				<Parameter name="sigma" value="2.763"/>
+				<Parameter name="epsilon" value="0.124"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Ga3+3" element="Ga" mass="69.723"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.383">
-				<Parameter name="epsilon" value="0.415">
+				<Parameter name="sigma" value="4.383"/>
+				<Parameter name="epsilon" value="0.415"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Ge3" element="Ge" mass="72.63"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.28">
-				<Parameter name="epsilon" value="0.379">
+				<Parameter name="sigma" value="4.28"/>
+				<Parameter name="epsilon" value="0.379"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="As3+3" element="As" mass="74.92160"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.23">
-				<Parameter name="epsilon" value="0.309">
+				<Parameter name="sigma" value="4.23"/>
+				<Parameter name="epsilon" value="0.309"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Se3+2" element="Se" mass="78.96"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.205">
-				<Parameter name="epsilon" value="0.291">
+				<Parameter name="sigma" value="4.205"/>
+				<Parameter name="epsilon" value="0.291"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Br" element="Br" mass="79.904"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.189">
-				<Parameter name="epsilon" value="0.251">
+				<Parameter name="sigma" value="4.189"/>
+				<Parameter name="epsilon" value="0.251"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Kr4+4" element="Kr" mass="83.798"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.141">
-				<Parameter name="epsilon" value="0.22">
+				<Parameter name="sigma" value="4.141"/>
+				<Parameter name="epsilon" value="0.22"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Rb" element="Rb" mass="85.4678"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.114">
-				<Parameter name="epsilon" value="0.04">
+				<Parameter name="sigma" value="4.114"/>
+				<Parameter name="epsilon" value="0.04"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Sr6+2" element="Sr" mass="87.62"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.641">
-				<Parameter name="epsilon" value="0.235">
+				<Parameter name="sigma" value="3.641"/>
+				<Parameter name="epsilon" value="0.235"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Y_3+3" element="Y" mass="88.90585"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.345">
-				<Parameter name="epsilon" value="0.072">
+				<Parameter name="sigma" value="3.345"/>
+				<Parameter name="epsilon" value="0.072"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Zr3+4" element="Zr" mass="91.224"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.124">
-				<Parameter name="epsilon" value="0.069">
+				<Parameter name="sigma" value="3.124"/>
+				<Parameter name="epsilon" value="0.069"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Nb3+5" element="Nb" mass="92.90638"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.165">
-				<Parameter name="epsilon" value="0.059">
+				<Parameter name="sigma" value="3.165"/>
+				<Parameter name="epsilon" value="0.059"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Mo6+6" element="Mo" mass="95.96"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.052">
-				<Parameter name="epsilon" value="0.056">
+				<Parameter name="sigma" value="3.052"/>
+				<Parameter name="epsilon" value="0.056"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Mo3+6" element="Mo" mass="95.96"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.052">
-				<Parameter name="epsilon" value="0.056">
+				<Parameter name="sigma" value="3.052"/>
+				<Parameter name="epsilon" value="0.056"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Tc6+5" element="Tc" mass="98"/>
 			<Parameters>
-				<Parameter name="sigma" value="2.998">
-				<Parameter name="epsilon" value="0.048">
+				<Parameter name="sigma" value="2.998"/>
+				<Parameter name="epsilon" value="0.048"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Ru6+2" element="Ru" mass="101.07"/>
 			<Parameters>
-				<Parameter name="sigma" value="2.963">
-				<Parameter name="epsilon" value="0.056">
+				<Parameter name="sigma" value="2.963"/>
+				<Parameter name="epsilon" value="0.056"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Rh6+3" element="Rh" mass="102.90550"/>
 			<Parameters>
-				<Parameter name="sigma" value="2.929">
-				<Parameter name="epsilon" value="0.053">
+				<Parameter name="sigma" value="2.929"/>
+				<Parameter name="epsilon" value="0.053"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Pd4+2" element="Pd" mass="106.42"/>
 			<Parameters>
-				<Parameter name="sigma" value="2.899">
-				<Parameter name="epsilon" value="0.048">
+				<Parameter name="sigma" value="2.899"/>
+				<Parameter name="epsilon" value="0.048"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Agl+l" element="Ag" mass="107.8682"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.148">
-				<Parameter name="epsilon" value="0.036">
+				<Parameter name="sigma" value="3.148"/>
+				<Parameter name="epsilon" value="0.036"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Cd3+2" element="Cd" mass="112.411"/>
 			<Parameters>
-				<Parameter name="sigma" value="2.848">
-				<Parameter name="epsilon" value="0.228">
+				<Parameter name="sigma" value="2.848"/>
+				<Parameter name="epsilon" value="0.228"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="In3+3" element="In" mass="114.818"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.463">
-				<Parameter name="epsilon" value="0.599">
+				<Parameter name="sigma" value="4.463"/>
+				<Parameter name="epsilon" value="0.599"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Sn3" element="Sn" mass="118.710"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.392">
-				<Parameter name="epsilon" value="0.567">
+				<Parameter name="sigma" value="4.392"/>
+				<Parameter name="epsilon" value="0.567"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Sb3+3" element="Sb" mass="121.760"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.42">
-				<Parameter name="epsilon" value="0.449">
+				<Parameter name="sigma" value="4.42"/>
+				<Parameter name="epsilon" value="0.449"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Te3+2" element="Te" mass="127.60"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.47">
-				<Parameter name="epsilon" value="0.398">
+				<Parameter name="sigma" value="4.47"/>
+				<Parameter name="epsilon" value="0.398"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="I_" element="I" mass="126.90447"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.5">
-				<Parameter name="epsilon" value="0.339">
+				<Parameter name="sigma" value="4.5"/>
+				<Parameter name="epsilon" value="0.339"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Xe4+4" element="Xe" mass="131.293"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.404">
-				<Parameter name="epsilon" value="0.332">
+				<Parameter name="sigma" value="4.404"/>
+				<Parameter name="epsilon" value="0.332"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Cs" element="Cs" mass="132.9054519"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.517">
-				<Parameter name="epsilon" value="0.045">
+				<Parameter name="sigma" value="4.517"/>
+				<Parameter name="epsilon" value="0.045"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Ba6+2" element="Ba" mass="137.327"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.703">
-				<Parameter name="epsilon" value="0.364">
+				<Parameter name="sigma" value="3.703"/>
+				<Parameter name="epsilon" value="0.364"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="La3+3" element="La" mass="138.90547"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.522">
-				<Parameter name="epsilon" value="0.017">
+				<Parameter name="sigma" value="3.522"/>
+				<Parameter name="epsilon" value="0.017"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Ce6+3" element="Ce" mass="140.116"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.556">
-				<Parameter name="epsilon" value="0.013">
+				<Parameter name="sigma" value="3.556"/>
+				<Parameter name="epsilon" value="0.013"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Pr6+3" element="Pr" mass="140.90765"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.606">
-				<Parameter name="epsilon" value="0.01">
+				<Parameter name="sigma" value="3.606"/>
+				<Parameter name="epsilon" value="0.01"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Nd6+3" element="Nd" mass="144.242"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.575">
-				<Parameter name="epsilon" value="0.01">
+				<Parameter name="sigma" value="3.575"/>
+				<Parameter name="epsilon" value="0.01"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Pm6+3" element="Pm" mass="145"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.547">
-				<Parameter name="epsilon" value="0.009">
+				<Parameter name="sigma" value="3.547"/>
+				<Parameter name="epsilon" value="0.009"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Sm6+3" element="Sm" mass="150.36"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.52">
-				<Parameter name="epsilon" value="0.008">
+				<Parameter name="sigma" value="3.52"/>
+				<Parameter name="epsilon" value="0.008"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Eu6+3" element="Eu" mass="151.964"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.493">
-				<Parameter name="epsilon" value="0.008">
+				<Parameter name="sigma" value="3.493"/>
+				<Parameter name="epsilon" value="0.008"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Gd6+3" element="Gd" mass="157.25"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.368">
-				<Parameter name="epsilon" value="0.009">
+				<Parameter name="sigma" value="3.368"/>
+				<Parameter name="epsilon" value="0.009"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Tb6+3" element="Tb" mass="158.92535"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.451">
-				<Parameter name="epsilon" value="0.007">
+				<Parameter name="sigma" value="3.451"/>
+				<Parameter name="epsilon" value="0.007"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Dy6+3" element="Dy" mass="162.500"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.428">
-				<Parameter name="epsilon" value="0.007">
+				<Parameter name="sigma" value="3.428"/>
+				<Parameter name="epsilon" value="0.007"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Ho6+3" element="Ho" mass="164.93032"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.409">
-				<Parameter name="epsilon" value="0.007">
+				<Parameter name="sigma" value="3.409"/>
+				<Parameter name="epsilon" value="0.007"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Er6+3" element="Er" mass="167.259"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.391">
-				<Parameter name="epsilon" value="0.007">
+				<Parameter name="sigma" value="3.391"/>
+				<Parameter name="epsilon" value="0.007"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Tm6+3" element="Tm" mass="168.93421"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.374">
-				<Parameter name="epsilon" value="0.006">
+				<Parameter name="sigma" value="3.374"/>
+				<Parameter name="epsilon" value="0.006"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Yb6+3" element="Yb" mass="173.054"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.355">
-				<Parameter name="epsilon" value="0.228">
+				<Parameter name="sigma" value="3.355"/>
+				<Parameter name="epsilon" value="0.228"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Lu6+3" element="Lu" mass="174.9668"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.64">
-				<Parameter name="epsilon" value="0.041">
+				<Parameter name="sigma" value="3.64"/>
+				<Parameter name="epsilon" value="0.041"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Hf3+4" element="Hf" mass="178.49"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.141">
-				<Parameter name="epsilon" value="0.072">
+				<Parameter name="sigma" value="3.141"/>
+				<Parameter name="epsilon" value="0.072"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Ta3+5" element="Ta" mass="180.94788"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.17">
-				<Parameter name="epsilon" value="0.081">
+				<Parameter name="sigma" value="3.17"/>
+				<Parameter name="epsilon" value="0.081"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="W_6+6" element="W" mass="183.84" def = "" desc = ""/>
 			<Parameters>
-				<Parameter name="sigma" value="3.069">
-				<Parameter name="epsilon" value="0.067">
+				<Parameter name="sigma" value="3.069"/>
+				<Parameter name="epsilon" value="0.067"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="W_3+4" element="W" mass="183.84" def = "" desc = ""/>
 			<Parameters>
-				<Parameter name="sigma" value="3.069">
-				<Parameter name="epsilon" value="0.067">
+				<Parameter name="sigma" value="3.069"/>
+				<Parameter name="epsilon" value="0.067"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="W_3+6" element="W" mass="183.84" def = "" desc = ""/>
 			<Parameters>
-				<Parameter name="sigma" value="3.069">
-				<Parameter name="epsilon" value="0.067">
+				<Parameter name="sigma" value="3.069"/>
+				<Parameter name="epsilon" value="0.067"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Re6+5" element="Re" mass="186.207" def = "" desc = ""/>
 			<Parameters>
-				<Parameter name="sigma" value="2.954">
-				<Parameter name="epsilon" value="0.066">
+				<Parameter name="sigma" value="2.954"/>
+				<Parameter name="epsilon" value="0.066"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Re3+7" element="Re" mass="186.207" def = "" desc = ""/>
 			<Parameters>
-				<Parameter name="sigma" value="2.954">
-				<Parameter name="epsilon" value="0.066">
+				<Parameter name="sigma" value="2.954"/>
+				<Parameter name="epsilon" value="0.066"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Os6+6" element="Os" mass="190.23"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.12">
-				<Parameter name="epsilon" value="0.037">
+				<Parameter name="sigma" value="3.12"/>
+				<Parameter name="epsilon" value="0.037"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Ir6+3" element="Ir" mass="192.217"/>
 			<Parameters>
-				<Parameter name="sigma" value="2.84">
-				<Parameter name="epsilon" value="0.073">
+				<Parameter name="sigma" value="2.84"/>
+				<Parameter name="epsilon" value="0.073"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Pt4+2" element="Pt" mass="195.084"/>
 			<Parameters>
-				<Parameter name="sigma" value="2.754">
-				<Parameter name="epsilon" value="0.08">
+				<Parameter name="sigma" value="2.754"/>
+				<Parameter name="epsilon" value="0.08"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Au4+3" element="Au" mass="196.966569"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.293">
-				<Parameter name="epsilon" value="0.039">
+				<Parameter name="sigma" value="3.293"/>
+				<Parameter name="epsilon" value="0.039"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Hg1+2" element="Hg" mass="200.59"/>
 			<Parameters>
-				<Parameter name="sigma" value="2.705">
-				<Parameter name="epsilon" value="0.385">
+				<Parameter name="sigma" value="2.705"/>
+				<Parameter name="epsilon" value="0.385"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Tl3+3" element="Tl" mass="204.3833"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.347">
-				<Parameter name="epsilon" value="0.68">
+				<Parameter name="sigma" value="4.347"/>
+				<Parameter name="epsilon" value="0.68"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Pb3" element="Pb" mass="207.2"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.297">
-				<Parameter name="epsilon" value="0.663">
+				<Parameter name="sigma" value="4.297"/>
+				<Parameter name="epsilon" value="0.663"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Bi3+3" element="Bi" mass="208.98040"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.37">
-				<Parameter name="epsilon" value="0.518">
+				<Parameter name="sigma" value="4.37"/>
+				<Parameter name="epsilon" value="0.518"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Po3+2" element="Po" mass="209"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.709">
-				<Parameter name="epsilon" value="0.325">
+				<Parameter name="sigma" value="4.709"/>
+				<Parameter name="epsilon" value="0.325"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="At" element="At" mass="210"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.75">
-				<Parameter name="epsilon" value="0.284">
+				<Parameter name="sigma" value="4.75"/>
+				<Parameter name="epsilon" value="0.284"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Rn4+4" element="Rn" mass="222"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.765">
-				<Parameter name="epsilon" value="0.248">
+				<Parameter name="sigma" value="4.765"/>
+				<Parameter name="epsilon" value="0.248"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Fr" element="Fr" mass="223"/>
 			<Parameters>
-				<Parameter name="sigma" value="4.9">
-				<Parameter name="epsilon" value="0.05">
+				<Parameter name="sigma" value="4.9"/>
+				<Parameter name="epsilon" value="0.05"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Ra6+2" element="Ra" mass="226"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.677">
-				<Parameter name="epsilon" value="0.404">
+				<Parameter name="sigma" value="3.677"/>
+				<Parameter name="epsilon" value="0.404"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Ac6+3" element="Ac" mass="227"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.478">
-				<Parameter name="epsilon" value="0.033">
+				<Parameter name="sigma" value="3.478"/>
+				<Parameter name="epsilon" value="0.033"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Th6+4" element="Th" mass="232.03806"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.396">
-				<Parameter name="epsilon" value="0.026">
+				<Parameter name="sigma" value="3.396"/>
+				<Parameter name="epsilon" value="0.026"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="Pa6+4" element="Pa" mass="231.03588"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.424">
-				<Parameter name="epsilon" value="0.022">
+				<Parameter name="sigma" value="3.424"/>
+				<Parameter name="epsilon" value="0.022"/>
 			</Parameters>
 		</AtomType>
 		<AtomType name="U_6+4" element="U" mass="238.02891"/>
 			<Parameters>
-				<Parameter name="sigma" value="3.395">
-				<Parameter name="epsilon" value="0.022">
+				<Parameter name="sigma" value="3.395"/>
+				<Parameter name="epsilon" value="0.022"/>
 			</Parameters>
 		</AtomType>
 	</AtomTypes>
