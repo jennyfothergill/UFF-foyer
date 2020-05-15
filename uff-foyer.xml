@@ -117,7 +117,7 @@
 		<Type name="Pa6+4" class="Pa6+4" element="Pa" mass="231.03588"/>
 		<Type name="U_6+4" class="U_6+4" element="U" mass="238.02891"/>
 	</AtomTypes>
-	<NonbondedForce>
+	<NonbondedForce coulomb14scale="0.833333" lj14scale="0.5">
 		<Atom type="H_" charge="0.712" sigma="2.886" epsilon="0.044"/>
 		<Atom type="H_b" charge="0.712" sigma="2.886" epsilon="0.044"/>
 		<Atom type="He4+4" charge="0.098" sigma="2.362" epsilon="0.056"/>
