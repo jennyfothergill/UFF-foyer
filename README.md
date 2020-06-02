@@ -8,15 +8,16 @@ This repository provides [foyer](https://github.com/mosdef-hub/foyer) and [GMSO]
 
 #### Source Notes:
 <TODO>
-< Add specific notes about parameters, e.g., if a set of parameters comes verbatim from prior work, provide details and a DOI >
+<Add specific notes about parameters, e.g., if a set of parameters comes verbatim from prior work, provide details and a DOI>
 
 #### Additional Notes:
 <TODO>
-< Add any other relevant information. Also for consistency, please define conversion factors used. 
-Note that we strongly suggest the following unit conversions defined in OpenMM, e.g.: >
+<Add any other relevant information. Also for consistency, please define conversion factors used. 
+Note that we strongly suggest the following unit conversions defined in OpenMM, e.g.:>
+ 
  * UFF units are given as angstroem, deg, kcal/mol, 
  
 ### Force field DOI
-<TODO>
-  * [![DOI](https://zenodo.org/badge/XXX/USER_NAME/YOUR_FORCEFIELD_REPO.svg)](https://zenodo.org/badge/latestdoi/XXX/USER_NAME/YOUR_FORCEFIELD_REPO)
+(not complete)
+<TODO>[![DOI](https://zenodo.org/badge/XXX/USER_NAME/YOUR_FORCEFIELD_REPO.svg)](https://zenodo.org/badge/latestdoi/XXX/USER_NAME/YOUR_FORCEFIELD_REPO)</TODO>
 
