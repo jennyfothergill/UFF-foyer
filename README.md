@@ -1,6 +1,6 @@
 ### UFF
 
-This This repository provides a [foyer](https://github.com/mosdef-hub/foyer) and [GMSO](https://github.com/mosdef-hub/gmso) compatible XML files for the Universal Forcefield (UFF).
+This repository provides a [foyer](https://github.com/mosdef-hub/foyer) and [GMSO](https://github.com/mosdef-hub/gmso) compatible XML files for the Universal Forcefield (UFF).
 
  * Source: Rappé, A. K., Casewit, C. J., Colwell, K. S., Goddard, W. A., & Skiff, W. M. (1992). UFF, a Full Periodic Table Force Field for Molecular Mechanics and Molecular Dynamics Simulations. Journal of the American Chemical Society, 114(25), 10024–10035. [https://doi.org/10.1021/ja00051a040](https://doi.org/10.1021/ja00051a040)
 
